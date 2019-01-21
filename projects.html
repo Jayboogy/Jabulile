@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<title>Jayboogy Writes</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+h1{
+  font-family: "Lobster",sans-serif;
+  font-size: 84px;
+}
+h2{
+  font-family:"Allerta+Stencil", sans-serif;
+  font-size: 34px  
+}
+body h2,h3,h4,h5{
+  font-family: "Arial", sans-serif}
+.header {
+  padding: 70px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  background-image: url("Images/tumblr_oyceltDMpz1vo8a9lo1_250.jpg");
+  font-size: 30px;
+  opacity: 100%;
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top:260px;
+  background-color: indigo;
+}
+
+#about {
+  top: 20px;
+  background-color: gray;
+}
+
+#projects {
+  top: 140px;
+  background-color: darkslategray;
+}
+#blog {
+  top: 80px;
+  background-color: darkmagenta;
+}
+
+#contact {
+  top: 200px;
+  background-color: blueviolet
+}
+
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+  <div class="w3-panel w3-large">
+     <a href="https://www.facebook.com/PrincessJaybizzle?ref=bookmarks"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="Images/12552680_10209046649906652_7240326133773090037_n.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Projects</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"><a href="content creation.html" id="content creation"></i>Content Creation</a></button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Written work</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Fashion</button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="Images/IMG-20181230-WA0052.jpg" alt="#NakedBlackLoud" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>#NakedBlackLoud at Afro Punk 2019</b></p>
+        <p>The #NakedBlackLoud initative was a collaborative project by IindieRhe and myself in corrobaration with Umuzi creating content for Afro Punk. Click for more.</p>
+      </div>
+    </div>
+   
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+<div id="mySidenav" class="sidenav">
+<a href="home.html" id="home">Home</a>  
+<a href="about.html" id="about">About</a>  
+<a href="projects.html" id="projects">Projects</a>
+<a href="https://yourbabysmother.wordpress.com/" id="blog">Blog</a>
+<a href="contact.html" id="contact">Contact</a> 
+</div>
+
+<div style="margin-right:80px;">
+</div>
+   
+</style>
