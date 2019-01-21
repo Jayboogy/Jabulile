@@ -1,3 +1,3 @@
 # Jabulile
 
-https://jayboogy.github.io/Jabulile/jabuswebsite.html
+https://jayboogy.github.io/Jabulile/JabusWebsite.html
