@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+}
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#home {
+  top:260px;
+  background-color: indigo;
+}
+
+#about {
+  top: 20px;
+  background-color: gray;
+}
+
+#projects {
+  top: 140px;
+  background-color: darkslategray;
+}
+#blog {
+  top: 80px;
+  background-color: darkmagenta;
+}
+
+#contact {
+  top: 200px;
+  background-color: blueviolet
+}
+.bgimg {
+  background-image: url("slideshow images/ComingSoon.jpg")
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+<a href="home.html" id="home">Home</a>  
+<a href="about.html" id="about">About</a>  
+<a href="projects.html" id="projects">Projects</a>
+<a href="https://yourbabysmother.wordpress.com/" id="blog">Blog</a>
+<a href="contact.html" id="contact">Contact</a> 
+</div>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle w3-padding-large w3-xlarge">
+    Projects
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+  </div>
+
+</body>
+</html>
